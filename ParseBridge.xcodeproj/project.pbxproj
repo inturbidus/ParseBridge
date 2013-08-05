@@ -30,20 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		099CA3AE179B9EA2000F39DD /* ParseAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseAnalytics.h; sourceTree = "<group>"; };
-		099CA3B0179B9EA2000F39DD /* ParseAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseAnalytics.m; sourceTree = "<group>"; };
-		099CA3B1179B9EA2000F39DD /* ParseUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseUser.m; sourceTree = "<group>"; };
-		099CA3B4179B9EA2000F39DD /* Parse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parse.m; sourceTree = "<group>"; };
-		099CA3B5179B9EA2000F39DD /* Parse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parse.h; sourceTree = "<group>"; };
-		099CA3BA179B9EA2000F39DD /* ParseUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseUser.h; sourceTree = "<group>"; };
-		099CA3EB179C4F01000F39DD /* ParseQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseQuery.h; sourceTree = "<group>"; };
-		099CA3EC179C4F01000F39DD /* ParseQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseQuery.m; sourceTree = "<group>"; };
-		099CA3EF179E4A56000F39DD /* ParseFacebookUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseFacebookUtils.m; sourceTree = "<group>"; };
-		099CA3F0179E4A56000F39DD /* ParseFacebookUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseFacebookUtils.h; sourceTree = "<group>"; };
-		099CA3F1179E539F000F39DD /* LogInCallBack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInCallBack.m; sourceTree = "<group>"; };
-		099CA3F2179E539F000F39DD /* LogInCallBack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInCallBack.h; sourceTree = "<group>"; };
-		099CA3F6179E547D000F39DD /* ParseException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseException.h; sourceTree = "<group>"; };
-		099CA3F7179E547D000F39DD /* ParseException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseException.m; sourceTree = "<group>"; };
+		099CA3AE179B9EA2000F39DD /* ParseAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParseAnalytics.h; path = Bridge/ParseAnalytics.h; sourceTree = "<group>"; };
+		099CA3B0179B9EA2000F39DD /* ParseAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ParseAnalytics.m; path = Bridge/ParseAnalytics.m; sourceTree = "<group>"; };
+		099CA3B1179B9EA2000F39DD /* ParseUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ParseUser.m; path = Bridge/ParseUser.m; sourceTree = "<group>"; };
+		099CA3B4179B9EA2000F39DD /* Parse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Parse.m; path = Bridge/Parse.m; sourceTree = "<group>"; };
+		099CA3B5179B9EA2000F39DD /* Parse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Parse.h; path = Bridge/Parse.h; sourceTree = "<group>"; };
+		099CA3BA179B9EA2000F39DD /* ParseUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParseUser.h; path = Bridge/ParseUser.h; sourceTree = "<group>"; };
+		099CA3EB179C4F01000F39DD /* ParseQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParseQuery.h; path = Bridge/ParseQuery.h; sourceTree = "<group>"; };
+		099CA3EC179C4F01000F39DD /* ParseQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ParseQuery.m; path = Bridge/ParseQuery.m; sourceTree = "<group>"; };
+		099CA3EF179E4A56000F39DD /* ParseFacebookUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ParseFacebookUtils.m; path = Bridge/ParseFacebookUtils.m; sourceTree = "<group>"; };
+		099CA3F0179E4A56000F39DD /* ParseFacebookUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParseFacebookUtils.h; path = Bridge/ParseFacebookUtils.h; sourceTree = "<group>"; };
+		099CA3F1179E539F000F39DD /* LogInCallBack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LogInCallBack.m; path = Bridge/LogInCallBack.m; sourceTree = "<group>"; };
+		099CA3F2179E539F000F39DD /* LogInCallBack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LogInCallBack.h; path = Bridge/LogInCallBack.h; sourceTree = "<group>"; };
+		099CA3F6179E547D000F39DD /* ParseException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParseException.h; path = Bridge/ParseException.h; sourceTree = "<group>"; };
+		099CA3F7179E547D000F39DD /* ParseException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ParseException.m; path = Bridge/ParseException.m; sourceTree = "<group>"; };
 		099DAEA4178FC1E400CBF872 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		099DAEA9178FC7FF00CBF872 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		099DAEAB178FC80400CBF872 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -55,14 +55,15 @@
 		099DAEB7178FC83E00CBF872 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		099DAEB9178FC84300CBF872 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6E65A31017AEA12000924194 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		6E65A31A17AEAB4F00924194 /* ParseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseObject.h; sourceTree = "<group>"; };
-		6E65A31B17AEAB4F00924194 /* ParseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseObject.m; sourceTree = "<group>"; };
-		6EB1E38417AEDCFE00BAB150 /* ParseFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseFile.h; sourceTree = "<group>"; };
-		6EB1E38517AEDCFF00BAB150 /* ParseFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseFile.m; sourceTree = "<group>"; };
-		6EB1E38717AEDD4000BAB150 /* ParseGeoPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseGeoPoint.h; sourceTree = "<group>"; };
-		6EB1E38817AEDD4100BAB150 /* ParseGeoPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseGeoPoint.m; sourceTree = "<group>"; };
-		6EB1E38917AEDD6D00BAB150 /* ParseTwitterUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseTwitterUtils.h; sourceTree = "<group>"; };
-		6EB1E38A17AEDD6D00BAB150 /* ParseTwitterUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseTwitterUtils.m; sourceTree = "<group>"; };
+		6E65A31A17AEAB4F00924194 /* ParseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParseObject.h; path = Bridge/ParseObject.h; sourceTree = "<group>"; };
+		6E65A31B17AEAB4F00924194 /* ParseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ParseObject.m; path = Bridge/ParseObject.m; sourceTree = "<group>"; };
+		6EB1E38417AEDCFE00BAB150 /* ParseFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParseFile.h; path = Bridge/ParseFile.h; sourceTree = "<group>"; };
+		6EB1E38517AEDCFF00BAB150 /* ParseFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParseFile.m; path = Bridge/ParseFile.m; sourceTree = "<group>"; };
+		6EB1E38717AEDD4000BAB150 /* ParseGeoPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParseGeoPoint.h; path = Bridge/ParseGeoPoint.h; sourceTree = "<group>"; };
+		6EB1E38817AEDD4100BAB150 /* ParseGeoPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ParseGeoPoint.m; path = Bridge/ParseGeoPoint.m; sourceTree = "<group>"; };
+		6EB1E38917AEDD6D00BAB150 /* ParseTwitterUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParseTwitterUtils.h; path = Bridge/ParseTwitterUtils.h; sourceTree = "<group>"; };
+		6EB1E38A17AEDD6D00BAB150 /* ParseTwitterUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ParseTwitterUtils.m; path = Bridge/ParseTwitterUtils.m; sourceTree = "<group>"; };
+		6EB1E38B17AEF81800BAB150 /* ParseHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParseHeaders.h; path = Bridge/ParseHeaders.h; sourceTree = "<group>"; };
 		7A3FC5F817533CA900EF7EE1 /* ParseBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3FC5FC17533CA900EF7EE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7A3FC5FE17533CA900EF7EE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -128,6 +129,7 @@
 				6EB1E38817AEDD4100BAB150 /* ParseGeoPoint.m */,
 				6EB1E38917AEDD6D00BAB150 /* ParseTwitterUtils.h */,
 				6EB1E38A17AEDD6D00BAB150 /* ParseTwitterUtils.m */,
+				6EB1E38B17AEF81800BAB150 /* ParseHeaders.h */,
 			);
 			name = Bridge;
 			sourceTree = "<group>";

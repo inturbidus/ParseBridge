@@ -31,6 +31,10 @@
     ], 
     "assets": [
         {
+            "asset": "ParseBridge/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
             "asset": "ParseBridge/Default@2x.png", 
             "target": "Default@2x.png"
         }, 
@@ -41,10 +45,6 @@
         {
             "asset": "ParseBridge/Default-568h@2x.png", 
             "target": "Default-568h@2x.png"
-        }, 
-        {
-            "asset": "ParseBridge/en.lproj/InfoPlist.strings", 
-            "target": "en.lproj/InfoPlist.strings"
         }
     ], 
     "type": "app", 
@@ -69,27 +69,27 @@
             "header_path": "ParseBridge-project-headers.hmap", 
             "hmap": {
                 "ParseTwitterUtils.h": {
-                    "prefix": "ParseBridge/", 
+                    "prefix": "ParseBridge/Bridge/", 
                     "suffix": "ParseTwitterUtils.h", 
                     "key": "ParseTwitterUtils.h"
                 }, 
                 "ParseAnalytics.h": {
-                    "prefix": "ParseBridge/", 
+                    "prefix": "ParseBridge/Bridge/", 
                     "suffix": "ParseAnalytics.h", 
                     "key": "ParseAnalytics.h"
                 }, 
                 "ParseFacebookUtils.h": {
-                    "prefix": "ParseBridge/", 
+                    "prefix": "ParseBridge/Bridge/", 
                     "suffix": "ParseFacebookUtils.h", 
                     "key": "ParseFacebookUtils.h"
                 }, 
                 "ParseObject.h": {
-                    "prefix": "ParseBridge/", 
+                    "prefix": "ParseBridge/Bridge/", 
                     "suffix": "ParseObject.h", 
                     "key": "ParseObject.h"
                 }, 
                 "ParseQuery.h": {
-                    "prefix": "ParseBridge/", 
+                    "prefix": "ParseBridge/Bridge/", 
                     "suffix": "ParseQuery.h", 
                     "key": "ParseQuery.h"
                 }, 
@@ -99,27 +99,27 @@
                     "key": "ParseBridge-Prefix.pch"
                 }, 
                 "Parse.h": {
-                    "prefix": "ParseBridge/", 
+                    "prefix": "ParseBridge/Bridge/", 
                     "suffix": "Parse.h", 
                     "key": "Parse.h"
                 }, 
                 "ParseException.h": {
-                    "prefix": "ParseBridge/", 
+                    "prefix": "ParseBridge/Bridge/", 
                     "suffix": "ParseException.h", 
                     "key": "ParseException.h"
                 }, 
                 "LogInCallBack.h": {
-                    "prefix": "ParseBridge/", 
+                    "prefix": "ParseBridge/Bridge/", 
                     "suffix": "LogInCallBack.h", 
                     "key": "LogInCallBack.h"
                 }, 
-                "ParseUser.h": {
-                    "prefix": "ParseBridge/", 
-                    "suffix": "ParseUser.h", 
-                    "key": "ParseUser.h"
+                "ParseHeaders.h": {
+                    "prefix": "ParseBridge/Bridge/", 
+                    "suffix": "ParseHeaders.h", 
+                    "key": "ParseHeaders.h"
                 }, 
                 "ParseGeoPoint.h": {
-                    "prefix": "ParseBridge/", 
+                    "prefix": "ParseBridge/Bridge/", 
                     "suffix": "ParseGeoPoint.h", 
                     "key": "ParseGeoPoint.h"
                 }, 
@@ -129,9 +129,14 @@
                     "key": "ParseBridgeAppDelegate.h"
                 }, 
                 "ParseFile.h": {
-                    "prefix": "ParseBridge/", 
+                    "prefix": "ParseBridge/Bridge/", 
                     "suffix": "ParseFile.h", 
                     "key": "ParseFile.h"
+                }, 
+                "ParseUser.h": {
+                    "prefix": "ParseBridge/Bridge/", 
+                    "suffix": "ParseUser.h", 
+                    "key": "ParseUser.h"
                 }
             }
         }
